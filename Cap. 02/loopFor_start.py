@@ -7,13 +7,13 @@ def loopFor():
     for x in range(5,10):
         print(x)
 
-loopFor()
+loopFor() 
 
 # Usando um LOOP FOR em uma coleção
-def loopArray ():
+def loopArray():
     dias = ["seg", "ter", "qua", "qui", "sex", "sab", "dom"]
     for d in dias:
-        print (d)
+        print(d)
 
 loopArray()
 
@@ -25,6 +25,6 @@ loopArray()
 def loopEnum ():
     dias = ["seg", "ter", "qua", "qui", "sex", "sab", "dom"]
     for i, d in enumerate(dias):
-        print (i, d)
+        print(i,d)
 
-loopEnum()
+loopEnum ()
