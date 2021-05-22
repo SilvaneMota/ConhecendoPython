@@ -7,3 +7,14 @@ from datetime import time
 from datetime import datetime
 from datetime import timedelta
 
+def quantosDiasFalta(ano, mes, dia):
+    hoje = date.today()
+    dataprocurada = date(ano, mes, dia)
+
+    qtoDias = dataprocurada - hoje
+
+    mensagemRetorno = "Faltam " + str(qtoDias).replace("days, 0:00:00", "") + " dias para a data " + dataprocurada.strftime("%d/%m/%y")
+
+    print(mensagemRetorno)
+
+quantosDiasFalta (2022, 5, 30)
