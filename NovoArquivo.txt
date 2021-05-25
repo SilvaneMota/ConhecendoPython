@@ -1,2 +1,2 @@
-Linha gerada com a funcao 'EscreveArquivo' 
-Linha gerada com a funcao 'AlteraArquivo' 
+Linha Gerada com a Funcao 'EscreveArquivo' 
+Linha Gerada com a Funcao 'AlteraArquivo' 
